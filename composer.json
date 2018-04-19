@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "description": "MVC Project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ruslan Koval",
+      "email": "ruslan.koval21@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "core\\": "core/",
+      "app\\": "app/",
+      "config\\": "config/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.0",
+    "respect/validation": "^1.1",
+    "phpmailer/phpmailer": "^6.0",
+    "curl/curl": "^1.8",
+    "phpoffice/phpexcel": "^1.8"
+  }
+}
